@@ -14,7 +14,7 @@
   <tbody>
     <% @picture_albums.each do |picture_album| %>
       <tr>
-        <td><%= picture_album.title %></td>
+        <td><%= picture_album.format_title %></td>
         <td><%= picture_album.description %></td>
         <td><%= link_to 'Show', picture_album %></td>
         <td><%= link_to 'Edit', edit_picture_album_path(picture_album) %></td>

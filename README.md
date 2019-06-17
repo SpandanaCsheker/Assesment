@@ -1,24 +1,18 @@
-# README
+add fields to user model
+  first_name :string
+  last_name :string
+  gender :integer
+  date_of_birth :date
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ generate controller/action/view/ for profile edit and show
+  -add a modle address with the following fields
 
-Things you may want to cover:
+   -address :string
+   -state :string
+   -city :string
+   -pincode: integer
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ Add validation to the following fields
+  -first_name,last_name,gender,date_of_birth must be present
+  -email  should have email format and unique
+  -pincode would be 6 digit 
